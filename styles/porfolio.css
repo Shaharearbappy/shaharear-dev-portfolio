@@ -1,19 +1,20 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.logo h2{
+.logo h2 {
 
     font-size: 45px;
     font-size: 900;
 
 
 }
-.color-orenge{
-    
-color: #FD6E0A;
+
+.color-orenge {
+
+    color: #FD6E0A;
 
 }
 
@@ -21,44 +22,279 @@ color: #FD6E0A;
 
 
 
-.font-open-sans{
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
- 
+.font-open-sans {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+
 }
-header{
- 
-    background-color:#FFF8F3 ;
+
+header {
+
+    background-color: #FFF8F3;
+    background: url(../images/developer.png), url(../images/header_bg.png);
+    background-position: 23px 38px, bottom right;
+    background-repeat: no-repeat;
     padding-top: 50px;
 }
-nav{
+
+nav {
     width: 71%;
-    max: width 1140PX; ;
-   /* border: 1px solid red; */
-   margin: 0px auto;
-   display: flex;
-   justify-content: space-between;
+    max: width 1140PX;
+    ;
+    /* border: 1px solid red; */
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
 }
-nav .menu{
+
+nav .menu {
+    display: flex;
+    list-style-type: none;
+    gap: 51px;
+    align-items: center;
+
+}
+
+nav .menu a {
+    font-size: 20px;
+    color: #474747;
+    text-decoration: none;
+    align-items: center;
+
+}
+
+.btn {
+    background-color: #FD6E0A;
+    border: none;
+    padding: 18px 35px;
+    border-radius: 5px;
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+
+}
+
+#bannar {
+    /* border: 1px solid red; */
+    margin: 47px 38px 0px 230px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.banner-content {
+
+    text-align: center;
+    
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 45px;
+    font-weight: 600;
+    color: #474747;
+    margin-bottom: 5px;
+    /* max-width: 1100px; */
+
+
+
+}
+
+
+
+
+.banner-content h1 {
+    font-size: 85;
+    font-weight: bold;
+    color: #181818;
+    margin: 20px;
+
+
+
+    
+}
+
+.banner-content p {
+    font-size: 18px;
+    color: #757575;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+
+#bannar .img-b {
+    max-width: 585px;
+    vertical-align: middle;
+    /* margin-left: 100px; */
+    /* border: 2px solid red; */
+
+
+}
+#about{
+
+    padding-top: 130px;
+}
+#about .about-container{
+width: 71%;
+max-width: 1140px;
+margin: 0 auto;
+text-align: center;
+background-color: #FFF8F3;
+padding:131px 156px ;
+}
+.section-heading{
+    max-width: 827px;
+    text-align: center;
+    margin: 0 auto;
+}
+.section-heading h2{
+font-weight: 35px;
+margin-bottom: 30px;
+}
+.section-heading p{
+    font-size: 18px;
+    margin-bottom: 30px;
+    line-height: 30px;
+    color: #757575;
+}
+
+#about .about-container .about-info{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info .info-card p{
+font-size: 28px;
+    color: #757575;
+  
+}?
+
+#skills , #resume{
+padding-top: 130px;
+
+}
+                                                                                                   
+#skills .skills-container{       
+      width: 71%;          
+      max-width: 1140px; 
+        margin: 0 auto;
+        padding-top: 100px; 
+    }
+
+        #skills .skills-container .skills-box{
+            display: flex;
+            gap: 40px;
+        }
+
+    .skills-box .skills-card{
+
+       padding: 30px; 
+       max-width: 247px;
+       margin-bottom: 30px;
+       border: 1px solid red;
+       box-shadow: 0px 6px 50px #0000005c;
+    }
+    .skills-card img{
+max-width: 44px;
+margin-bottom: 30px;
+    }
+    .skills-card h3{
+        font-size: 20px;
+        color: #181818;
+        margin-bottom: 20px;
+    }
+     .skills-card p{
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+  
+
+     }
+     #resume .resume-container{
+width: 71%;
+max-width: 1140px;
+margin: 113px auto 0;
 display: flex;
-list-style-type: none;
-gap: 51px;
-align-items: center;
+gap: 24px;
 
-}
-nav .menu a{
-font-size: 20px;
+     }
+    .resume-container hr{
+        margin: 30px 0;
+     }
+     .resume-container .section-titel{
+        font-size:30px;
 color: #474747;
-text-decoration:none;
-align-items: center;
+margin-bottom: 30px;
 
-}
-.btn{
-background-color: #FD6E0A;
-border: none;
-padding: 18px 35px;
-border-radius: 5px;
+     }
+     .resume-card{
+        max-width: 511px;
+        margin-right: 47px;
+     }
+     .resume-card .card-titel{
+font-size: 25px;
+font-weight: bold;
+margin-bottom: 10px;
+color: #474747;
+
+     }    
+.card-info{
 font-size: 20px;
-color: white;
+font-weight: 600;
+margin-bottom: 20px;
+color: #757575;
 
+     }    
+.card-text{
+font-size: 16px;
+line-height: 28px;
+
+color: #757575;
+
+     }    
+        .text-center{
+            text-align: center;
+        }
+        footer{
+            margin-top: 130px;
+            background-color: #FFF8F3;
+            padding: 130px 0;
+        }
+.footer-container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+    .social{
+        max-width: 562px;
+    }
+   
+}
+.footer-container h2{
+
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+
+.footer-container p{
+    font-size: 16px;
+    color: #474747;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.icon a {
+    margin-left: 24px;
+}
+
+.footer-container form input[type="text"] , textarea{
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    color: #757575;
+
+   
 }
